@@ -1,7 +1,7 @@
 public class Funcionariocomissionado extends Colaborador {
 
-    private double totalVendas;
-    private double percentualComissao;
+    private final double totalVendas;
+    private final double percentualComissao;
 
     public Funcionariocomissionado(int matricula, String nome, double totalVendas, double percentualComissao) {
         super(matricula, nome);
