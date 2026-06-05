@@ -1,7 +1,7 @@
 public class Funcionarioproducao extends Colaborador {
 
-    private double valorPorPeca;
-    private int quantidadeProduzida;
+    private final double valorPorPeca;
+    private final int quantidadeProduzida;
 
     public Funcionarioproducao(int matricula, String nome, double valorPorPeca, int quantidadeProduzida) {
         super(matricula, nome);
