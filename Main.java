@@ -44,7 +44,7 @@ public class Main {
         int matricula = lerInteiroPositivo("Matrícula: ");
 
         colaboradores.add(new Funcionariopadrao(matricula, nome));
-        System.out.println("✔ Funcionário padrão cadastrado com sucesso!");
+        System.out.println(" Funcionário padrão cadastrado com sucesso!");
     }
 
     // ─── OPÇÃO 2: Funcionário Comissionado ───────────────────────────────────
@@ -58,7 +58,7 @@ public class Main {
         double percentual   = lerDoublePositivo("Informe comissão percentual: ");
 
         colaboradores.add(new Funcionariocomissionado(matricula, nome, vendas, percentual));
-        System.out.println("✔ Funcionário comissionado cadastrado com sucesso!");
+        System.out.println(" Funcionário comissionado cadastrado com sucesso!");
     }
 
     // ─── OPÇÃO 3: Funcionário de Produção ────────────────────────────────────
@@ -72,7 +72,7 @@ public class Main {
         int quantidade      = lerInteiroPositivo("Informe quantidade produzida: ");
 
         colaboradores.add(new Funcionarioproducao(matricula, nome, valorPorPeca, quantidade));
-        System.out.println("✔ Funcionário de produção cadastrado com sucesso!");
+        System.out.println(" Funcionário de produção cadastrado com sucesso!");
     }
 
     // ─── OPÇÃO 4: Gerar Folha ────────────────────────────────────────────────
